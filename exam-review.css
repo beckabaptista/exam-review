@@ -16,12 +16,17 @@ h2 {
   border-bottom: solid 1px;
 }
 
+* {
+  box-sizing: border-box; /*box-sizing hack*/
+}
+
+@media(min-width: 600px) {
 .container {
   max-width: 800px;
   margin: 0 auto;
   background-color: white;
   padding: 30px;
-  overflow: auto;
+  overflow: auto; /*clear-fix hack*/
 }
 
 body {
@@ -29,6 +34,19 @@ body {
 
 }
 
+.left-column {
+  float: left;
+  width: 70%;
+  padding-right: 20px;
+  padding: 10px;
+}
+
 .right-column {
   background-color: #f7f7f7;
+  float: right;
+  width: 30%;
+  padding-left: 20px;
+  padding: 10px;
+
+}
 }
