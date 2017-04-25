@@ -49,4 +49,9 @@ body {
   padding: 10px;
 
 }
+
+.border {
+  border: solid 5px;
+} /*this is how you call it in the jquery, make this up with the nonsense word and put the actual column selector in the function selector space*/
+
 }
